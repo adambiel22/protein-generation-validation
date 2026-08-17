@@ -1,0 +1,26 @@
+[project]
+name = "mutation-flows-validation"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Adam Bielecki", email = "ap.bielecki@student.uw.edu.pl" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "biopython>=1.88",
+    "ipykernel>=7.3.0",
+    "py3dmol>=2.5.5",
+    "seqme[esmfold]>=0.5.1",
+    "torch>=2.13.0",
+]
+
+[project.scripts]
+mutation-flows-validation = "mutation_flows_validation:main"
+
+[[tool.uv.index]]
+url = "https://download.pytorch.org/whl/cu126"
+
+[build-system]
+requires = ["uv_build>=0.11.1,<0.12.0"]
+build-backend = "uv_build"
