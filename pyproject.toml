@@ -9,8 +9,10 @@ authors = [
 requires-python = ">=3.12"
 dependencies = [
     "biopython>=1.88",
+    "datasets>=2.19.1",
     "ipykernel>=7.3.0",
     "py3dmol>=2.5.5",
+    "python-dotenv>=1.2.3",
     "seqme[esmfold]>=0.5.1",
     "torch>=2.13.0",
 ]
