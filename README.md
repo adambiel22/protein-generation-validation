@@ -1,4 +1,4 @@
-# mutation-flows-validation
+# protein-generation-validation
 
 ## Unconstrained sequence generation
 
